@@ -1,0 +1,178 @@
+body{
+    background-color: #ccc;
+    background-size: cover;
+}
+
+.header1{
+    margin-left: 25px;
+    width: 250px;
+    align-items: right;
+    font-size: 25px;
+    padding: 20px 15px;
+    padding-right: 30px;
+    background-color: darkorchid;
+    color: white;
+    border-radius: 15px;
+}
+.header1:hover{
+    background-color: rgb(90, 16, 127);
+}
+
+.header2{
+
+    margin-left: 25px;
+    text-align: left;
+    color: black;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.List-of-Accounts{
+    margin-left: 25px;
+}
+.Table input{
+    width: 500px;
+    height: 41px;
+}
+.Table button{
+    font-size: 20px;
+    padding-top: 7px;
+    padding-bottom: 12px;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+.search{
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+
+
+
+.add{
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+
+}
+.add:hover{
+    background-color: rgb(20, 87, 20);
+}
+.update{
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+}
+.update:hover{
+    background-color: rgb(14, 14, 189);
+}
+.delete{
+    background-color: rgb(231, 47, 47);
+    border-radius: 10px;
+}
+.delete:hover{
+    background-color: rgb(184, 19, 19);
+}
+
+.search{
+    border-radius: 5px;
+}
+
+
+
+.wrapper ul li ul li a{
+    color: white;
+}
+
+.table{
+    
+    
+    margin: 20px 0;
+
+    font-size: 25px;
+    min-width: 100%;
+    margin-left: 25px;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2 solid black;
+}
+.table thead tr{
+    background-color: darkgreen;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+.table th,
+.table td{
+    padding: 8px 40px;
+}
+.table tbody tr{
+    border-bottom: 2px solid black;
+}
+.table tbody tr:nth-of-type(even){
+    background-color: white;
+}
+.table tbody tr:nth-of-type(odd){
+    background-color: white;
+}
+.table tbody tr:last-of-type{
+    border-bottom: 5px solid red;
+    
+}
+
+.profile{
+    width: -1px;
+    margin-left: -15px;
+    
+}
+
+.profile ul li{
+    background: green;
+    width: 170px;
+    border: 1px solid #ffff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #ffff;
+    position: relative;
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.profile ul li{
+    font-size: 50px;
+}
+.profile ul li:hover{
+    background-color: crimson;
+}
+.profile ul ul{
+    display: none;
+}
+
+.profile ul li:hover > ul{
+    display: block;
+}
+.profile ul ul ul{
+    margin-left: 173px;
+    top: 0;
+    position: absolute;
+}
+.profile ul li ul li{
+    margin-left: -41px;
+    font-size: 23px;
+}
+.profile ul li ul li a{
+    color: white;
+    font-size: 23px;
+}
+
+.welcome{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+    color: darkgreen;
+    text-shadow: 10px 0px 0px 0px;
+    font-weight: bold;
+    
+}
+

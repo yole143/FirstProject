@@ -1,0 +1,41 @@
+body{
+    background: url(images/Fill-up_Background.png) no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+.w{
+    padding: 10px;
+    font-size: 20px;
+    background-color: gray;
+}
+
+.top1 label{
+    
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+.top1 input{
+    font-size: 20px;
+    margin-top: 30px;
+    width: 350px;
+    height: 30px;
+    margin-left: 20px;
+    
+}
+.top2 label{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.top2 input{
+    font-size: 20px;
+    margin-top: 30px;
+    width: 350px;
+    height: 30px;
+    margin-left: 20px;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}

@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+}
+.wrapper{
+    width: -1px;
+    margin-left: 25px;
+}
+.wrapper ul{
+}
+.wrapper ul li{
+    background: green;
+    width: 170px;
+    border: 1px solid #ffff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #ffff;
+    font-size: 20px;
+    position: relative;
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.wrapper ul li:hover{
+    background: crimson;
+}
+.wrapper ul ul{
+    display: none;
+}
+.wrapper ul li:hover > ul{
+    display: block;
+}
+.wrapper ul ul ul{
+    margin-left: 170px;
+    top: 0;
+    position: absolute;
+}
+
+
+
+
+/*===========================================================================================*/
+
+
+
